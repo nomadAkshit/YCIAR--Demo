@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yciar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Cormorant:ital,wght@0,300..700;1,300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Maven+Pro:wght@400..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet"> 
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/contact.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="navbar">
+                <nav class="main-navbar">
+
+                    <div class="logo"><a href="#/"><img src="./images/Yciar®.png" alt=""></a></div>
+                    <ul>
+                        <li><a href="http://127.0.0.1:5500/index.html">Home</a></li>
+                        <li><a href="http://127.0.0.1:5500/why.html#">Why Us</a></li>
+                        <li><a href="http://127.0.0.1:5500/about.html">About</a></li>
+                        <li><a href="http://127.0.0.1:5500/blog.html">Blog</a></li>
+                        <li><a href="#">Resources</a></li>
+                        <li class="search-box">
+                            <img src="./images/Vector.svg" alt="search" class="search-icon" style="width: 15px;">
+
+                            <input name="search" type="search" placeholder="Search..." class="search-input">
+                        <li class="head-btn"><a href="http://127.0.0.1:5500/contact.html" class="button-btn">Contact
+                                Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="container">
+            <div class="main_toggle">
+                <div class="toggle_logo">
+                    <img src="./images/Yciar®.png" alt="">
+                </div>
+                <div class="toogle">
+                    <p id="nav-link"><a href="#" id="nav-toggle">☰</a></p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ============banner-section=============== -->
+    <section class="banner">
+        <div class="container">
+            <div class="banner-head">
+                <span>Contact us</span>
+                <h1>Your HubSpot Journey Begins Here</h1>
+                <p>Get solutions for a 360° customer view. Connect with us to make your business smarter.</p>
+            </div>
+            <div class="main-banner">
+                <div class="banner-text">
+                    <ul>
+                        <li> <span><svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" viewBox="0 0 54 54"
+                                    fill="none">
+                                    <rect width="54" height="54" rx="27" fill="#F26845" fill-opacity="0.1" />
+                                    <path
+                                        d="M27 35.5708C26.2315 35.571 25.4871 35.3099 24.8951 34.8326C24.3031 34.3553 23.9006 33.6917 23.7572 32.9563C21.5993 32.3067 19.699 31.0257 18.3144 29.2874C17.2691 27.9762 16.5509 26.4464 16.2164 24.8186C15.8819 23.1908 15.9402 21.5096 16.3868 19.9075C16.8333 18.3054 17.6559 16.8263 18.7896 15.5869C19.9233 14.3474 21.3372 13.3815 22.9197 12.7654C24.5021 12.1492 26.2099 11.8997 27.9083 12.0364C29.6067 12.1731 31.2493 12.6924 32.7065 13.5532C34.1636 14.4141 35.3956 15.5929 36.305 16.9969C37.2145 18.4008 37.7767 19.9914 37.9472 21.6431C38.0066 22.2325 37.5072 22.7125 36.9 22.7125C36.2928 22.7125 35.8066 22.2303 35.734 21.6431C35.5377 20.1276 34.9292 18.6907 33.9715 17.4812C33.0138 16.2716 31.7417 15.3333 30.2868 14.7633C28.832 14.1934 27.2472 14.0124 25.6965 14.2393C24.1458 14.4661 22.6854 15.0925 21.4666 16.0535C20.2477 17.0146 19.3147 18.2755 18.7639 19.7057C18.2131 21.1359 18.0647 22.6835 18.3339 24.1883C18.6032 25.6932 19.2803 27.1006 20.2953 28.265C21.3103 29.4293 22.6263 30.3084 24.107 30.8111C24.3869 30.3136 24.7971 29.8971 25.2957 29.604C25.7943 29.3109 26.3637 29.1515 26.9461 29.1421C27.5284 29.1327 28.1029 29.2736 28.6113 29.5505C29.1196 29.8273 29.5437 30.2303 29.8404 30.7185C30.1371 31.2067 30.2959 31.7627 30.3007 32.33C30.3054 32.8973 30.156 33.4557 29.8675 33.9486C29.579 34.4414 29.1617 34.8511 28.6581 35.136C28.1545 35.421 27.5824 35.571 27 35.5708ZM18.2 32.3562V32.2984C17.5984 31.7736 17.0476 31.1961 16.5544 30.5732C16.193 31.1012 16.0001 31.7216 16 32.3562V33.4278C16 37.6517 20.092 42 27 42C33.908 42 38 37.6517 38 33.4278V32.3562C38 31.5037 37.6523 30.686 37.0335 30.0832C36.4146 29.4803 35.5752 29.1417 34.7 29.1417H31.4C31.8818 29.7632 32.225 30.4918 32.39 31.2847H34.7C34.9917 31.2847 35.2715 31.3976 35.4778 31.5986C35.6841 31.7995 35.8 32.0721 35.8 32.3562V33.4278C35.8 36.5095 32.6496 39.8569 27 39.8569C21.3504 39.8569 18.2 36.5095 18.2 33.4278V32.3562ZM27 26.9986C25.7412 26.9986 24.5205 27.4191 23.5416 28.1901C22.5797 27.6161 21.7856 26.8108 21.2354 25.8515C20.6853 24.8923 20.3976 23.8113 20.4 22.7125C20.4003 21.5916 20.7015 20.4903 21.2735 19.5178C21.8456 18.5453 22.6688 17.7354 23.6614 17.1684C24.6539 16.6014 25.7814 16.297 26.932 16.2855C28.0826 16.2739 29.2163 16.5556 30.2206 17.1026C31.225 17.6495 32.0651 18.4427 32.6576 19.4036C33.2502 20.3644 33.5745 21.4594 33.5986 22.58C33.6226 23.7007 33.3454 24.8079 32.7946 25.792C32.2438 26.7761 31.4384 27.6028 30.4584 28.1901C29.4795 27.4191 28.2588 26.9986 27 26.9986ZM22.6 22.7125C22.6 23.8492 23.0636 24.9394 23.8887 25.7432C24.7139 26.547 25.833 26.9986 27 26.9986C28.167 26.9986 29.2861 26.547 30.1113 25.7432C30.9364 24.9394 31.4 23.8492 31.4 22.7125C31.4 21.5758 30.9364 20.4856 30.1113 19.6818C29.2861 18.878 28.167 18.4264 27 18.4264C25.833 18.4264 24.7139 18.878 23.8887 19.6818C23.0636 20.4856 22.6 21.5758 22.6 22.7125Z"
+                                        fill="#F26845" />
+                                </svg></span></li>
+                        <li>
+                            <h4>Talk to an expert</h4>
+                            <p>Ready to streamline processes, integrate systems, and drive growth? Our business
+                                engineers
+                                optimize operations with HubSpot.</p>
+                            <a href="">Talk with an expert</a>
+                        </li>
+                    </ul>
+
+                </div>
+                <div class="banner-text">
+                    <ul>
+                        <li> <span><svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" viewBox="0 0 54 54"
+                                    fill="none">
+                                    <rect width="54" height="54" rx="27" fill="#F26845" fill-opacity="0.1" />
+                                    <path
+                                        d="M20.5 35V33.5833C20.5 31.7047 21.2463 29.903 22.5747 28.5747C23.903 27.2463 25.7047 26.5 27.5833 26.5M27.5833 26.5C29.4619 26.5 31.2636 27.2463 32.592 28.5747C33.9204 29.903 34.6667 31.7047 34.6667 33.5833V35M27.5833 26.5C28.7105 26.5 29.7915 26.0522 30.5885 25.2552C31.3856 24.4582 31.8333 23.3772 31.8333 22.25C31.8333 21.1228 31.3856 20.0418 30.5885 19.2448C29.7915 18.4478 28.7105 18 27.5833 18C26.4562 18 25.3752 18.4478 24.5781 19.2448C23.7811 20.0418 23.3333 21.1228 23.3333 22.25C23.3333 23.3772 23.7811 24.4582 24.5781 25.2552C25.3752 26.0522 26.4562 26.5 27.5833 26.5ZM12 35V33.5833C12 32.4562 12.4478 31.3752 13.2448 30.5781C14.0418 29.7811 15.1228 29.3333 16.25 29.3333M16.25 29.3333C17.0014 29.3333 17.7221 29.0348 18.2535 28.5035C18.7848 27.9721 19.0833 27.2514 19.0833 26.5C19.0833 25.7486 18.7848 25.0279 18.2535 24.4965C17.7221 23.9652 17.0014 23.6667 16.25 23.6667C15.4986 23.6667 14.7779 23.9652 14.2465 24.4965C13.7152 25.0279 13.4167 25.7486 13.4167 26.5C13.4167 27.2514 13.7152 27.9721 14.2465 28.5035C14.7779 29.0348 15.4986 29.3333 16.25 29.3333ZM43.1667 35V33.5833C43.1667 32.4562 42.7189 31.3752 41.9219 30.5781C41.1248 29.7811 40.0438 29.3333 38.9167 29.3333M38.9167 29.3333C39.6681 29.3333 40.3888 29.0348 40.9201 28.5035C41.4515 27.9721 41.75 27.2514 41.75 26.5C41.75 25.7486 41.4515 25.0279 40.9201 24.4965C40.3888 23.9652 39.6681 23.6667 38.9167 23.6667C38.1652 23.6667 37.4446 23.9652 36.9132 24.4965C36.3818 25.0279 36.0833 25.7486 36.0833 26.5C36.0833 27.2514 36.3818 27.9721 36.9132 28.5035C37.4446 29.0348 38.1652 29.3333 38.9167 29.3333Z"
+                                        stroke="#F26845" stroke-width="2.125" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg></span></li>
+                        <li>
+                            <h4> Join the Yciar Community</h4>
+                            <p>Connect with business engineers to share insights and stay ahead with HubSpot strategies
+                                and
+                                commercial innovations.</p>
+                            <a href="#">Join Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ==============section-two============= -->
+    <section class="form-table">
+        <div class="container">
+            <div class="main-table">
+                <div class="table-text">
+                    <h2>We Make the Complex Simple</h2>
+                    <p>Our team is ready to answer your questions about transforming commercial processes and unifying
+                        your data with HubSpot CRM.
+                        Whether you're exploring options or need specific information on advanced Hubspot's solutions,
+                        reach out and start the conversation.
+                        Our team is ready to help you:</p>
+                    <ul>
+                        <li>
+                            <span><img src="./images/SVG.svg" alt="" style="width: 24px;"></span>
+                            <p>Find your ideal HubSpot solution.</p>
+                        </li>
+                        <li>
+                            <span><img src="./images/SVG.svg" alt="" style="width: 24px;"></span>
+                            <p>Connect HubSpot with your existing systems</p>
+                        </li>
+                        <li>
+                            <span><img src="./images/SVG.svg" alt="" style="width: 24px;"></span>
+                            <p>Get timeline and implementation insights</p>
+                        </li>
+                        <li>
+                            <span><img src="./images/SVG.svg" alt="" style="width: 24px;"></span>
+                            <p>Make complex processes simple</p>
+                        </li>
+                        <li class="three-img"><img src="./images-contact/WEBSITE - accreditation (3) 1.png" alt=""></li>
+                    </ul>
+                    <div class="social-icons">
+                        <h2>Let’s get social</h2>
+                        <ul>
+                            <li class="social-svg"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22"
+                                    viewBox="0 0 22 22" fill="none">
+                                    <path
+                                        d="M4.92457 22H0.363401V7.31173H4.92457V22ZM2.64153 5.30811C1.18302 5.30811 0 4.10005 0 2.64153C1.04394e-08 1.94095 0.278304 1.26907 0.773687 0.773687C1.26907 0.278303 1.94095 0 2.64153 0C3.34211 0 4.01399 0.278303 4.50938 0.773687C5.00476 1.26907 5.28306 1.94095 5.28306 2.64153C5.28306 4.10005 4.09956 5.30811 2.64153 5.30811ZM21.9956 22H17.4442V14.8498C17.4442 13.1458 17.4099 10.9605 15.0728 10.9605C12.7014 10.9605 12.338 12.8118 12.338 14.7271V22H7.78169V7.31173H12.1563V9.31534H12.2201C12.829 8.1613 14.3165 6.94341 16.5357 6.94341C21.1519 6.94341 22.0005 9.98321 22.0005 13.9315V22H21.9956Z"
+                                        fill="#F26845" />
+                                </svg></li>
+                            <li>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="17" viewBox="0 0 24 17"
+                                    fill="none">
+                                    <path
+                                        d="M22.9917 2.58342C22.7217 1.56653 21.926 0.765657 20.9156 0.49387C19.0844 0 11.7412 0 11.7412 0C11.7412 0 4.39809 0 2.56678 0.49387C1.55647 0.7657 0.760756 1.56653 0.490688 2.58342C0 4.4266 0 8.27221 0 8.27221C0 8.27221 0 12.1178 0.490688 13.961C0.760756 14.9779 1.55647 15.7454 2.56678 16.0172C4.39809 16.5111 11.7412 16.5111 11.7412 16.5111C11.7412 16.5111 19.0843 16.5111 20.9156 16.0172C21.926 15.7454 22.7217 14.9779 22.9917 13.961C23.4824 12.1178 23.4824 8.27221 23.4824 8.27221C23.4824 8.27221 23.4824 4.4266 22.9917 2.58342ZM9.33958 11.7637V4.78068L15.477 8.2723L9.33958 11.7637Z"
+                                        fill="#09003A" />
+                                </svg>
+                            </li>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"
+                                    fill="none">
+                                    <path
+                                        d="M17.8571 0H2.14286C1.57454 0 1.02949 0.225765 0.627628 0.627628C0.225765 1.02949 0 1.57454 0 2.14286L0 17.8571C0 18.4255 0.225765 18.9705 0.627628 19.3724C1.02949 19.7742 1.57454 20 2.14286 20H8.27009V13.2004H5.45759V10H8.27009V7.56071C8.27009 4.78616 9.92188 3.25357 12.4518 3.25357C13.6634 3.25357 14.9304 3.46964 14.9304 3.46964V6.19286H13.5344C12.1589 6.19286 11.7299 7.04643 11.7299 7.92188V10H14.8004L14.3094 13.2004H11.7299V20H17.8571C18.4255 20 18.9705 19.7742 19.3724 19.3724C19.7742 18.9705 20 18.4255 20 17.8571V2.14286C20 1.57454 19.7742 1.02949 19.3724 0.627628C18.9705 0.225765 18.4255 0 17.8571 0Z"
+                                        fill="#09003A" />
+                                </svg>
+
+                            </li>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"
+                                    fill="none">
+                                    <path
+                                        d="M10.0045 4.87225C7.16613 4.87225 4.87672 7.16166 4.87672 10C4.87672 12.8383 7.16613 15.1277 10.0045 15.1277C12.8428 15.1277 15.1322 12.8383 15.1322 10C15.1322 7.16166 12.8428 4.87225 10.0045 4.87225ZM10.0045 13.3337C8.17026 13.3337 6.67076 11.8387 6.67076 10C6.67076 8.16133 8.16579 6.6663 10.0045 6.6663C11.8431 6.6663 13.3382 8.16133 13.3382 10C13.3382 11.8387 11.8387 13.3337 10.0045 13.3337ZM16.538 4.6625C16.538 5.32746 16.0025 5.85853 15.342 5.85853C14.677 5.85853 14.1459 5.32299 14.1459 4.6625C14.1459 4.00201 14.6815 3.46647 15.342 3.46647C16.0025 3.46647 16.538 4.00201 16.538 4.6625ZM19.9342 5.87638C19.8583 4.27424 19.4924 2.85507 18.3186 1.68582C17.1494 0.516568 15.7302 0.150619 14.1281 0.070289C12.4769 -0.0234297 7.52761 -0.0234297 5.87638 0.070289C4.2787 0.146156 2.85953 0.512105 1.68582 1.68136C0.512105 2.85061 0.150619 4.26978 0.070289 5.87192C-0.0234297 7.52315 -0.0234297 12.4724 0.070289 14.1236C0.146156 15.7258 0.512105 17.1449 1.68582 18.3142C2.85953 19.4834 4.27424 19.8494 5.87638 19.9297C7.52761 20.0234 12.4769 20.0234 14.1281 19.9297C15.7302 19.8538 17.1494 19.4879 18.3186 18.3142C19.4879 17.1449 19.8538 15.7258 19.9342 14.1236C20.0279 12.4724 20.0279 7.52761 19.9342 5.87638ZM17.801 15.8953C17.4529 16.7701 16.779 17.4439 15.8998 17.7965C14.5833 18.3186 11.4593 18.1981 10.0045 18.1981C8.54959 18.1981 5.42118 18.3142 4.10912 17.7965C3.23441 17.4484 2.56053 16.7745 2.20797 15.8953C1.68582 14.5788 1.80632 11.4549 1.80632 10C1.80632 8.54513 1.69028 5.41671 2.20797 4.10465C2.55606 3.22995 3.22995 2.55606 4.10912 2.2035C5.42564 1.68136 8.54959 1.80185 10.0045 1.80185C11.4593 1.80185 14.5878 1.68582 15.8998 2.2035C16.7745 2.5516 17.4484 3.22548 17.801 4.10465C18.3231 5.42118 18.2026 8.54513 18.2026 10C18.2026 11.4549 18.3231 14.5833 17.801 15.8953Z"
+                                        fill="#09003A" />
+                                </svg></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="forms">
+                    <div class="group_one">
+                        <div class="field">
+                            <label for="first_name">First Name*</label>
+                            <input id="first_name" type="text" required>
+                        </div>
+                        <div class="field">
+                            <label for="last_name">Last Name*</label>
+                            <input id="last_name" type="text" required>
+                        </div>
+                    </div>
+
+
+                    <div class="group_one">
+                        <div class="field">
+                            <label for="work_email">Work Email*</label>
+                            <input id="work_email" type="email" required>
+                        </div>
+
+                        <div class="field">
+                            <label for="phone_number">Phone Number*</label>
+                            <input id="phone_number" type="tel" required>
+                        </div>
+                    </div>
+
+
+                    <div class="group_one">
+                        <div class="field"> <label for="company">Company *</label>
+                            <input id="company" type="text" class="int" required>
+                        </div>
+                        <div class="field">
+                            <label for="Job">Job Role*</label>
+                            <input type="text" id="Job-role">
+                        </div>
+
+                    </div>
+                    <div class="option-check">
+                        <h5>How can Yciar assist you?*</h5>
+                        <div class="flex-input"> <input type="checkbox" id="first-box" name="hubspot">
+                            <label for="hubspot"> HubSpot Consulting</label>
+                        </div>
+                        <div class="flex-input"> <input type="checkbox" id="first-box" name="hubspot">
+                            <label for="hubspot"> HubSpot Implementation</label>
+                        </div>
+                        <div class="flex-input"> <input type="checkbox" id="flex-box" name="hubspot">
+                            <label for="hubspot">HubSpot Engineering</label>
+                        </div>
+                        <div class="flex-input"> <input type="checkbox" id="flex-box" name="hubspot">
+                            <label for="hubspot">HubSpot Development</label>
+                        </div>
+                        <div class="flex-input"><input type="checkbox" id="flex-box" name="hubspot">
+                            <label for="hubspot">Non-service related</label>
+                        </div>
+                        <p>Please choose the relevant services, or let us know if your inquiry falls outside our
+                            offerings.</p>
+                    </div>
+                    <div class="select-table">
+                        <h5>How did you hear about us?</h5>
+                        <select name="" id="">
+                            <option value="">Select One</option>
+                            <option>Friend</option>
+                            <option>Social-Media</option>
+                            <option>Others</option>
+                        </select>
+                        <p>Yciar Solutions needs the contact information you provide to us to contact you about our
+                            products and services. You may unsubscribe from these communications at any time. For
+                            information on how to unsubscribe, as well as our privacy practices and commitment to
+                            protecting your privacy, please review our Privacy Policy.</p>
+                        <a href="#" class="button-btn">Submit Now</a>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    
+    <!--===================section-three-=================== -->
+    <section class="location">
+        <div class="container">
+            <div class="main-flex">
+                <div class="local-box">
+                    <h4>Belgium</h4>
+                    <ul>
+                        <li><span><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30"
+                                    fill="none">
+                                    <rect width="30" height="30" rx="15" fill="#F26845" fill-opacity="0.1" />
+                                    <path
+                                        d="M14.5 8C13.0418 8.00172 11.6439 8.58174 10.6128 9.61281C9.58174 10.6439 9.00172 12.0418 9 13.5C8.99866 14.6915 9.38786 15.8507 10.108 16.8C10.108 16.8 10.258 16.9975 10.2825 17.026L14.5 22L18.7195 17.0235C18.7415 16.997 18.892 16.8 18.892 16.8L18.8925 16.7985C19.6122 15.8495 20.0012 14.691 20 13.5C19.9983 12.0418 19.4183 10.6439 18.3872 9.61281C17.3561 8.58174 15.9582 8.00172 14.5 8ZM14.5 15.5C14.1044 15.5 13.7178 15.3827 13.3889 15.1629C13.06 14.9432 12.8036 14.6308 12.6522 14.2654C12.5009 13.8999 12.4613 13.4978 12.5384 13.1098C12.6156 12.7219 12.8061 12.3655 13.0858 12.0858C13.3655 11.8061 13.7219 11.6156 14.1098 11.5384C14.4978 11.4613 14.8999 11.5009 15.2654 11.6522C15.6308 11.8036 15.9432 12.06 16.1629 12.3889C16.3827 12.7178 16.5 13.1044 16.5 13.5C16.4993 14.0302 16.2884 14.5386 15.9135 14.9135C15.5386 15.2884 15.0302 15.4993 14.5 15.5Z"
+                                        fill="#F26845" />
+                                </svg></span>
+                            <p>Prinsenstraat 8/10, 1000 Brussel, Belgium</p>
+                        </li>
+                        <li><span><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30"
+                                    fill="none">
+                                    <rect width="30" height="30" rx="15" fill="#F26845" fill-opacity="0.1" />
+                                    <path
+                                        d="M14.5 8C13.0418 8.00172 11.6439 8.58174 10.6128 9.61281C9.58174 10.6439 9.00172 12.0418 9 13.5C8.99866 14.6915 9.38786 15.8507 10.108 16.8C10.108 16.8 10.258 16.9975 10.2825 17.026L14.5 22L18.7195 17.0235C18.7415 16.997 18.892 16.8 18.892 16.8L18.8925 16.7985C19.6122 15.8495 20.0012 14.691 20 13.5C19.9983 12.0418 19.4183 10.6439 18.3872 9.61281C17.3561 8.58174 15.9582 8.00172 14.5 8ZM14.5 15.5C14.1044 15.5 13.7178 15.3827 13.3889 15.1629C13.06 14.9432 12.8036 14.6308 12.6522 14.2654C12.5009 13.8999 12.4613 13.4978 12.5384 13.1098C12.6156 12.7219 12.8061 12.3655 13.0858 12.0858C13.3655 11.8061 13.7219 11.6156 14.1098 11.5384C14.4978 11.4613 14.8999 11.5009 15.2654 11.6522C15.6308 11.8036 15.9432 12.06 16.1629 12.3889C16.3827 12.7178 16.5 13.1044 16.5 13.5C16.4993 14.0302 16.2884 14.5386 15.9135 14.9135C15.5386 15.2884 15.0302 15.4993 14.5 15.5Z"
+                                        fill="#F26845" />
+                                </svg></span>
+                            <p>Radenberg 7, 9506 Geraardsbergen</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="local-box">
+                    <h4>Germany</h4>
+                    <ul>
+                        <li><span><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30"
+                                    fill="none">
+                                    <rect width="30" height="30" rx="15" fill="#F26845" fill-opacity="0.1" />
+                                    <path
+                                        d="M14.5 8C13.0418 8.00172 11.6439 8.58174 10.6128 9.61281C9.58174 10.6439 9.00172 12.0418 9 13.5C8.99866 14.6915 9.38786 15.8507 10.108 16.8C10.108 16.8 10.258 16.9975 10.2825 17.026L14.5 22L18.7195 17.0235C18.7415 16.997 18.892 16.8 18.892 16.8L18.8925 16.7985C19.6122 15.8495 20.0012 14.691 20 13.5C19.9983 12.0418 19.4183 10.6439 18.3872 9.61281C17.3561 8.58174 15.9582 8.00172 14.5 8ZM14.5 15.5C14.1044 15.5 13.7178 15.3827 13.3889 15.1629C13.06 14.9432 12.8036 14.6308 12.6522 14.2654C12.5009 13.8999 12.4613 13.4978 12.5384 13.1098C12.6156 12.7219 12.8061 12.3655 13.0858 12.0858C13.3655 11.8061 13.7219 11.6156 14.1098 11.5384C14.4978 11.4613 14.8999 11.5009 15.2654 11.6522C15.6308 11.8036 15.9432 12.06 16.1629 12.3889C16.3827 12.7178 16.5 13.1044 16.5 13.5C16.4993 14.0302 16.2884 14.5386 15.9135 14.9135C15.5386 15.2884 15.0302 15.4993 14.5 15.5Z"
+                                        fill="#F26845" />
+                                </svg></span>
+                            <p>Tunisstraße 19‑23, 50667 Köln</p>
+                        </li>
+                        <li><span><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30"
+                                    fill="none">
+                                    <rect width="30" height="30" rx="15" fill="#F26845" fill-opacity="0.1" />
+                                    <path
+                                        d="M14.5 8C13.0418 8.00172 11.6439 8.58174 10.6128 9.61281C9.58174 10.6439 9.00172 12.0418 9 13.5C8.99866 14.6915 9.38786 15.8507 10.108 16.8C10.108 16.8 10.258 16.9975 10.2825 17.026L14.5 22L18.7195 17.0235C18.7415 16.997 18.892 16.8 18.892 16.8L18.8925 16.7985C19.6122 15.8495 20.0012 14.691 20 13.5C19.9983 12.0418 19.4183 10.6439 18.3872 9.61281C17.3561 8.58174 15.9582 8.00172 14.5 8ZM14.5 15.5C14.1044 15.5 13.7178 15.3827 13.3889 15.1629C13.06 14.9432 12.8036 14.6308 12.6522 14.2654C12.5009 13.8999 12.4613 13.4978 12.5384 13.1098C12.6156 12.7219 12.8061 12.3655 13.0858 12.0858C13.3655 11.8061 13.7219 11.6156 14.1098 11.5384C14.4978 11.4613 14.8999 11.5009 15.2654 11.6522C15.6308 11.8036 15.9432 12.06 16.1629 12.3889C16.3827 12.7178 16.5 13.1044 16.5 13.5C16.4993 14.0302 16.2884 14.5386 15.9135 14.9135C15.5386 15.2884 15.0302 15.4993 14.5 15.5Z"
+                                        fill="#F26845" />
+                                </svg></span>
+                            <p>Isartorpl. 8, 80331 München </p>
+                        </li>
+                        <li><span><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
+<rect width="30" height="30" rx="15" fill="#F26845" fill-opacity="0.1"/>
+<path d="M20.3583 21C19.0852 21 17.8249 20.725 16.5774 20.175C15.3299 19.625 14.1967 18.8407 13.1778 17.8222C12.1589 16.8037 11.3746 15.6731 10.825 14.4306C10.2754 13.188 10.0004 11.925 10 10.6417V10H13.6056L14.1708 13.0708L12.4292 14.8278C12.6532 15.225 12.9028 15.6019 13.1778 15.9583C13.4528 16.3148 13.7481 16.6458 14.0639 16.9514C14.3593 17.2468 14.6827 17.5295 15.0343 17.7996C15.3859 18.0697 15.7652 18.3217 16.1722 18.5556L17.9444 16.7833L21 17.4097V21H20.3583Z" fill="#F26845"/>
+</svg></span><p>+49 221 828 293 28</p></li>
+                    </ul>
+                </div>
+                <div class="local-box">
+                    <h4>France</h4>
+                    <ul>
+                        <li><span><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30"
+                                    fill="none">
+                                    <rect width="30" height="30" rx="15" fill="#F26845" fill-opacity="0.1" />
+                                    <path
+                                        d="M14.5 8C13.0418 8.00172 11.6439 8.58174 10.6128 9.61281C9.58174 10.6439 9.00172 12.0418 9 13.5C8.99866 14.6915 9.38786 15.8507 10.108 16.8C10.108 16.8 10.258 16.9975 10.2825 17.026L14.5 22L18.7195 17.0235C18.7415 16.997 18.892 16.8 18.892 16.8L18.8925 16.7985C19.6122 15.8495 20.0012 14.691 20 13.5C19.9983 12.0418 19.4183 10.6439 18.3872 9.61281C17.3561 8.58174 15.9582 8.00172 14.5 8ZM14.5 15.5C14.1044 15.5 13.7178 15.3827 13.3889 15.1629C13.06 14.9432 12.8036 14.6308 12.6522 14.2654C12.5009 13.8999 12.4613 13.4978 12.5384 13.1098C12.6156 12.7219 12.8061 12.3655 13.0858 12.0858C13.3655 11.8061 13.7219 11.6156 14.1098 11.5384C14.4978 11.4613 14.8999 11.5009 15.2654 11.6522C15.6308 11.8036 15.9432 12.06 16.1629 12.3889C16.3827 12.7178 16.5 13.1044 16.5 13.5C16.4993 14.0302 16.2884 14.5386 15.9135 14.9135C15.5386 15.2884 15.0302 15.4993 14.5 15.5Z"
+                                        fill="#F26845" />
+                                </svg></span>
+                            <p>40 Rue du Louvre, 75001 Paris</p>
+                        </li>
+                        <li><span><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
+<rect width="30" height="30" rx="15" fill="#F26845" fill-opacity="0.1"/>
+<path d="M20.3583 21C19.0852 21 17.8249 20.725 16.5774 20.175C15.3299 19.625 14.1967 18.8407 13.1778 17.8222C12.1589 16.8037 11.3746 15.6731 10.825 14.4306C10.2754 13.188 10.0004 11.925 10 10.6417V10H13.6056L14.1708 13.0708L12.4292 14.8278C12.6532 15.225 12.9028 15.6019 13.1778 15.9583C13.4528 16.3148 13.7481 16.6458 14.0639 16.9514C14.3593 17.2468 14.6827 17.5295 15.0343 17.7996C15.3859 18.0697 15.7652 18.3217 16.1722 18.5556L17.9444 16.7833L21 17.4097V21H20.3583Z" fill="#F26845"/>
+</svg></span>
+                            <p>+33 1 84 88 39 87</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="local-box">
+                    <h4>Netherlands</h4>
+                    <ul>
+                        <li><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
+<rect width="30" height="30" rx="15" fill="#F26845" fill-opacity="0.1"/>
+<path d="M20.3583 21C19.0852 21 17.8249 20.725 16.5774 20.175C15.3299 19.625 14.1967 18.8407 13.1778 17.8222C12.1589 16.8037 11.3746 15.6731 10.825 14.4306C10.2754 13.188 10.0004 11.925 10 10.6417V10H13.6056L14.1708 13.0708L12.4292 14.8278C12.6532 15.225 12.9028 15.6019 13.1778 15.9583C13.4528 16.3148 13.7481 16.6458 14.0639 16.9514C14.3593 17.2468 14.6827 17.5295 15.0343 17.7996C15.3859 18.0697 15.7652 18.3217 16.1722 18.5556L17.9444 16.7833L21 17.4097V21H20.3583Z" fill="#F26845"/>
+</svg></span>
+                            <p>Mr Treublaan 7, 1097 DP Amsterdam</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =============section-slider========== -->
+    <section class="main-slider">
+        <div class="wrapper">
+            <h4>We Made Their Business Smarter</h4>
+            <h2>Join Them Today</h2>
+            <div class="slider">
+
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+
+                        <img src="./images/PON Logo.svg" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="./images/Logos Testimonials-Jun-13-2025-01-25-58-0710-PM.svg" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="./images/Knauf-logo-2455482B1E-seeklogo.com-2.svg" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="./images/Bosch_Rexroth_AG.svg" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="./images/mabtech pink-01_0.svg" alt="">
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- ================section-eigth================ -->
+
+    <!-- =====================section-nine================== -->
+
+    <!-- ===========2nd-slider========= -->
+
+    <!-- =========section-eleven============ -->
+
+    <!-- ===========third-slider=========== -->
+
+    <!-- ==========section-accordion========== -->
+    <section class="accordion-main">
+        <div class="container">
+            <div class="main-hero">
+                <div class="text-hero">
+                    <h2>Questions Fréquentes</h2>
+                    <p>Obtenez des réponses aux questions fréquentes sur notre collaboration en tant que partenaire
+                        HubSpot
+                    </p>
+                </div>
+                <div class="accordion">
+                    <div class="accordion-item">
+                        <div class="accordion-titel">
+                            <h5> <span><svg xmlns="http://www.w3.org/2000/svg" width="10" height="16"
+                                        viewBox="0 0 10 16" fill="none">
+                                        <path
+                                            d="M8.70859 7.29414C9.09922 7.68477 9.09922 8.31914 8.70859 8.70977L3.70859 13.7098C3.31797 14.1004 2.68359 14.1004 2.29297 13.7098C1.90234 13.3191 1.90234 12.6848 2.29297 12.2941L6.58672 8.00039L2.29609 3.70664C1.90547 3.31602 1.90547 2.68164 2.29609 2.29102C2.68672 1.90039 3.32109 1.90039 3.71172 2.29102L8.71172 7.29102L8.70859 7.29414Z"
+                                            fill="#09003A" />
+                                    </svg></span>Quels types de projets HubSpot gérez-vous ?</h5>
+                        </div>
+                        <div class="accordion-contant">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam neque quisquam cumque,
+                                distinctio ducimus pariatur?Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                Veniam neque quisquam cumque, distinctio ducimus pariatur?Lorem, ipsum dolor sit amet
+                                consectetur adipisicing elit. Veniam neque quisquam cumque, distinctio ducimus pariatur?
+                            </p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-titel">
+                            <h5> <span><svg xmlns="http://www.w3.org/2000/svg" width="10" height="16"
+                                        viewBox="0 0 10 16" fill="none">
+                                        <path
+                                            d="M8.70859 7.29414C9.09922 7.68477 9.09922 8.31914 8.70859 8.70977L3.70859 13.7098C3.31797 14.1004 2.68359 14.1004 2.29297 13.7098C1.90234 13.3191 1.90234 12.6848 2.29297 12.2941L6.58672 8.00039L2.29609 3.70664C1.90547 3.31602 1.90547 2.68164 2.29609 2.29102C2.68672 1.90039 3.32109 1.90039 3.71172 2.29102L8.71172 7.29102L8.70859 7.29414Z"
+                                            fill="#09003A" />
+                                    </svg></span>Comment démarrer un projet avec vous ?</h5>
+                        </div>
+                        <div class="accordion-contant">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam neque quisquam cumque,
+                                distinctio ducimus pariatur?Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                Veniam neque quisquam cumque, distinctio ducimus pariatur?Lorem, ipsum dolor sit amet
+                                consectetur adipisicing elit. Veniam neque quisquam cumque, distinctio ducimus pariatur?
+                            </p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-titel">
+                            <h5> <span><svg xmlns="http://www.w3.org/2000/svg" width="10" height="16"
+                                        viewBox="0 0 10 16" fill="none">
+                                        <path
+                                            d="M8.70859 7.29414C9.09922 7.68477 9.09922 8.31914 8.70859 8.70977L3.70859 13.7098C3.31797 14.1004 2.68359 14.1004 2.29297 13.7098C1.90234 13.3191 1.90234 12.6848 2.29297 12.2941L6.58672 8.00039L2.29609 3.70664C1.90547 3.31602 1.90547 2.68164 2.29609 2.29102C2.68672 1.90039 3.32109 1.90039 3.71172 2.29102L8.71172 7.29102L8.70859 7.29414Z"
+                                            fill="#09003A" />
+                                    </svg></span>Proposez-vous un support HubSpot continu ?</h5>
+                        </div>
+                        <div class="accordion-contant">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam neque quisquam cumque,
+                                distinctio ducimus pariatur?Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                Veniam neque quisquam cumque, distinctio ducimus pariatur?Lorem, ipsum dolor sit amet
+                                consectetur adipisicing elit. Veniam neque quisquam cumque, distinctio ducimus pariatur?
+                            </p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-titel">
+                            <h5> <span><svg xmlns="http://www.w3.org/2000/svg" width="10" height="16"
+                                        viewBox="0 0 10 16" fill="none">
+                                        <path
+                                            d="M8.70859 7.29414C9.09922 7.68477 9.09922 8.31914 8.70859 8.70977L3.70859 13.7098C3.31797 14.1004 2.68359 14.1004 2.29297 13.7098C1.90234 13.3191 1.90234 12.6848 2.29297 12.2941L6.58672 8.00039L2.29609 3.70664C1.90547 3.31602 1.90547 2.68164 2.29609 2.29102C2.68672 1.90039 3.32109 1.90039 3.71172 2.29102L8.71172 7.29102L8.70859 7.29414Z"
+                                            fill="#09003A" />
+                                    </svg></span>Qu'est-ce qui différencie Yciar des autres consultants HubSpot ?</h5>
+                        </div>
+                        <div class="accordion-contant">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam neque quisquam cumque,
+                                distinctio ducimus pariatur?Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                Veniam neque quisquam cumque, distinctio ducimus pariatur?Lorem, ipsum dolor sit amet
+                                consectetur adipisicing elit. Veniam neque quisquam cumque, distinctio ducimus pariatur?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ==========section-last-banner========= -->
+
+    <!-- ==============footer============== -->
+    <footer>
+        <div class="container">
+            <div class="main-footer">
+                <ul>
+                    <li class="footer-logo"><a href="#/"><img src="./images/Yciar® (1).png" alt=""></a></li>
+                    <li class="flex-rows"><a href="#/">Our Hubspot Services</a>
+                        <a href="#/">Resources</a>
+                        <a href="#/">Blog</a>
+                    </li>
+                    <li class="flex-row2"><a href="#/">About Us</a>
+                        <a href="http://127.0.0.1:5500/contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="social-logo">
+                <ul>
+                    <li><a href=""><img src="./images/Item → Link.svg" alt=""></a></li>
+                    <li><a href=""><img src="./images/Item → Link (1).svg" alt=""></a></li>
+                    <li><a href=""><img src="./images/Item → Link (2).svg " alt=""></a></li>
+                    <li><a href=""><img src="./images/Item → Link (3).svg" alt=""></a></li>
+                    <li><a href=""><img src="./images/Item → Link (4).svg" alt=""></a></li>
+                </ul>
+            </div>
+            <hr>
+            <div class="copy-right">
+                <p>Copyright © 2025 Yciar</p>
+                <p>Terms & Condition Privacy Policy</p>
+            </div>
+        </div>
+    </footer>
+    <!-- ===================================================js-scripts==================================================================== -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <!-- =============search-box============ -->
+
+    <script>document.querySelector(".search-icon").addEventListener("click", () => {
+            document.querySelector(".search-box").classList.toggle("active");
+        });  </script>
+    <!-- ==========tabber========== -->
+    <script>document.querySelectorAll(".tab-btn").forEach((tab) => {
+            tab.addEventListener("click", () => {
+                const target = tab.getAttribute("data-tab");
+
+                // Remove active from all tabs
+                document.querySelectorAll(".tab-btn").forEach(btn =>
+                    btn.classList.remove("active")
+                );
+
+                // Hide all contents
+                document.querySelectorAll(".tab-content").forEach(content =>
+                    content.classList.remove("active")
+                );
+
+                // Activate clicked tab
+                tab.classList.add("active");
+
+                // Show related content
+                document.getElementById(target).classList.add("active");
+            });
+        });
+    </script>
+    <!-- ========slider========== -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script type="text/javascript">
+        (function ($) {
+            'use strict';
+            $('.main-slider .owl-carousel').owlCarousel({
+                loop: true,
+                margin: 97,
+                nav: true,
+                dots: true,
+                responsive: {
+                    0: {
+                        items: 2
+                    },
+                    600: {
+                        items: 4
+                    },
+                    1000: {
+                        items: 5
+                    }
+                }
+            })
+
+        })(jQuery); 
+    </script>
+    <!-- ===========2nd-slideer============ -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script type="text/javascript">
+        (function ($) {
+            'use strict';
+            $('.second-slide .owl-carousel').owlCarousel({
+                loop: true,
+                margin: 38,
+                nav: true,
+                dots: true,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 2
+                    },
+                    1000: {
+                        items: 2
+                    }
+                }
+            })
+
+        })(jQuery); 
+    </script>
+    <!-- ========third-slider=========== -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script type="text/javascript">
+        (function ($) {
+            'use strict';
+            $('.slider-inner .owl-carousel').owlCarousel({
+                loop: true,
+                margin: 64,
+                nav: true,
+                dots: true,
+                responsive: {
+                    0: {
+                        items: 2
+                    },
+                    600: {
+                        items: 4
+                    },
+                    1000: {
+                        items: 5
+                    }
+                }
+            })
+
+        })(jQuery); 
+    </script>
+    <!-- =======accordion======= -->
+    <script>    $(document).ready(function () {
+            $(".accordion-titel").click(function () {
+                $(this).parent(".accordion-item").find(".accordion-contant").slideToggle();
+                $(this).parent(".accordion-item").prevAll(".accordion-item").find(".accordion-contant").slideUp();
+                $(this).parent(".accordion-item").nextAll(".accordion-item").find(".accordion-contant").slideUp();
+            });
+        });
+    </script>
+    <!-- ====toggle=== -->
+    <script>
+        $(".toogle a#nav-toggle").click(function () {
+
+            $(".navbar").slideToggle("");
+        });
+    </script>
+  
+</body>
+
+</html>

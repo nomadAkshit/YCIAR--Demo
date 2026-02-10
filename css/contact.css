@@ -1,0 +1,418 @@
+.main-banner .banner-text:nth-child(2n){
+    margin-right: 0;
+}
+
+.main-banner .banner-text {
+    width: calc(50% - 24px);
+    margin-right:47px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    position: relative;
+    padding: 30px 33px 58px 30px;
+    margin-top: 0;
+}
+.banner-head {
+    text-align: center;
+    margin-bottom: 33px;
+}
+.banner-head h1{
+    margin: 13px 0;
+}
+.main-banner .banner-text::before{
+     content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #F26845;
+    right: -10px;
+    z-index: -1;
+    bottom: -10px;
+    opacity: 25%;
+    border-radius: 10px;
+}
+.main-banner .banner-text a{
+    color: #F26845;
+}
+.main-banner .banner-text p {
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.banner-text ul{
+    display: flex;
+}
+.banner-text ul li span{
+    margin-right: 19px;
+}
+/* =============section-two-csss========= */
+section.form-table{
+    padding: 99px 0;
+}
+.main-table{
+    display: flex;
+    flex-wrap: wrap;
+}
+.main-table .table-text{
+    width: calc(48% - 111px);
+    margin-right: 111px;
+}
+.main-table .table-text ul li {
+    display: flex;
+    margin-bottom: 20px;
+}
+.main-table .table-text
+h2{
+    margin: 0 0 10px 0;
+}
+.main-table .table-text ul{
+    margin-top: 23px;
+}
+.main-table .table-text ul li span {
+    margin-right: 15px;
+}
+.table-text ul li.three-img{
+    margin: 49px 0 58px 0;
+}
+.table-text .social-icons li.social-svg svg path {
+    fill: #09003A;
+}
+.table-text .social-icons li.social-svg svg path:hover{
+    fill: #F26845;
+}
+.table-text .social-icons ul{
+    display: flex;
+    align-items: baseline;
+}
+.table-text .social-icons ul li svg path:hover{
+    fill: #F26845;
+}
+.table-text .social-icons ul li {
+    margin-right: 22.5px;
+    margin-bottom: 0;
+}
+.main-table .forms {
+    width: 52%;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 33px 0px #0000001F;
+    border-radius: 10px;
+    padding: 40px 40px 50px 50px;
+}
+label {
+  display: block;
+  color: #09003A;
+  font-size: 14px;
+  font-family: Montserrat;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+ .forms .group_one {
+    display: flex;
+    flex-wrap: wrap;
+}
+.forms .field {
+    width: calc(50% - 10px);
+    margin-right: 10px;
+}
+.forms .field:nth-child(2n){
+    margin-right: 0;
+}
+.group_one input{
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #F2684538;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.flex-input {
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+    
+}
+.forms .option-check{
+    margin-bottom: 15px;
+}
+.forms .option-check h5{
+    font-size: 16px ;
+    margin-bottom: 10px;
+}
+.forms .option-check p{
+    font-size: 12px;
+    margin: 20px 0;
+}
+.forms .option-check label{
+    font-size: 12px;
+    font-weight: 400;
+    margin-left: 10px;
+}
+.forms .option-check input{
+    border-radius: 50%;
+    
+}
+.forms select {
+    border: 1px solid #F2684538;
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+   font-family: Montserrat;
+}
+.forms .select-table h5{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.forms .select-table p{
+    font-weight: 400;
+    font-size: 10px;
+    margin: 10px 0 30px 0;
+    line-height: 100%;
+}
+.forms .select-table a{
+    width: 100%;
+}
+/* =====================section-three-css================= */
+section.location{
+    padding: 0 0 100px 0;
+}
+.location .main-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.main-flex .local-box {
+    background-color: #FEF0ED;
+    width: calc(25% - 27px);
+    margin-right: 36px;
+    padding: 30px 30px 20px 30px;
+    border-radius: 10px;
+}
+.main-flex .local-box h4{
+    margin-bottom: 24px;
+}
+.main-flex .local-box p{
+    font-size: 14px;
+    font-weight: 400;
+}
+.main-flex .local-box ul li{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.main-flex .local-box:nth-child(4n){
+    margin-right: 0;
+}
+.main-flex .local-box ul li span{
+    margin-right: 15px;
+}
+/* =========slider====== */
+.main-slider h4{
+    text-align: center;
+    color: #F26845;
+    margin-bottom: 10px;
+}
+
+/* ============responsive-start=============== */
+@media screen and (max-width: 1024px) {
+    .main-banner .banner-text {
+        width: calc(50% - 20px);
+        margin-right: 20px;
+    }
+    .main-banner .banner-text:nth-child(2n) {
+        margin-right: 0;
+    }
+
+    .main-table .table-text {
+        width: calc(45% - 50px);
+        margin-right: 50px;
+    }
+    .main-table .forms {
+        width: 55%;
+        padding: 30px 30px 40px 40px;
+    }
+
+    .main-flex .local-box {
+        width: calc(25% - 20px);
+        margin-right: 25px;
+        padding: 25px 25px 15px 25px;
+    }
+    .main-flex .local-box:nth-child(4n) {
+        margin-right: 0;
+    }
+
+    .main-slider .wrapper h4 {
+        font-size: 18px;
+    }
+    .main-slider .wrapper h2 {
+        font-size: 28px;
+    }
+
+    .main-hero .text-hero {
+        width: 35%;
+    }
+    .main-hero .accordion {
+        width: calc(65% - 40px);
+        margin-left: 40px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .main-banner .banner-text {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .main-table {
+        flex-direction: column;
+    }
+    .main-table .table-text {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+    .main-table .forms {
+        width: 100%;
+        padding: 30px;
+    }
+    .forms .group_one {
+        flex-direction: column;
+    }
+    .forms .field {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .main-flex .local-box {
+        width: calc(50% - 15px);
+        margin-right: 30px;
+        margin-bottom: 20px;
+    }
+    .main-flex .local-box:nth-child(2n) {
+        margin-right: 0;
+    }
+    .main-flex .local-box:nth-child(4n) {
+        margin-right: 30px;
+    }
+
+    .main-slider .wrapper h4 {
+        font-size: 16px;
+    }
+    .main-slider .wrapper h2 {
+        font-size: 24px;
+    }
+
+    .main-hero {
+        flex-direction: column;
+    }
+    .main-hero .text-hero {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .main-hero .accordion {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .banner-head h1 {
+        font-size: 36px;
+    }
+    .banner-head p {
+        font-size: 14px;
+    }
+
+    .main-table .table-text h2 {
+        font-size: 24px;
+    }
+    .main-table .table-text p {
+        font-size: 14px;
+    }
+    .forms label {
+        font-size: 13px;
+    }
+    .forms input, .forms select {
+        padding: 12px;
+    }
+    .forms .option-check h5 {
+        font-size: 14px;
+    }
+    .forms .option-check label {
+        font-size: 11px;
+    }
+    .forms .select-table p {
+        font-size: 9px;
+    }
+
+    .main-flex .local-box {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .main-flex .local-box h4 {
+        font-size: 18px;
+    }
+    .main-flex .local-box p {
+        font-size: 13px;
+    }
+
+    .main-slider .wrapper h4 {
+        font-size: 14px;
+    }
+    .main-slider .wrapper h2 {
+        font-size: 20px;
+    }
+
+   
+}
+
+@media screen and (max-width: 450px) {
+    .banner-head h1 {
+        font-size: 28px;
+    }
+    .banner-head p {
+        font-size: 13px;
+    }
+    .main-banner .banner-text {
+        padding: 20px 20px 40px 20px;
+    }
+    .main-banner .banner-text h4 {
+        font-size: 16px;
+    }
+    .main-banner .banner-text p {
+        font-size: 13px;
+        margin-bottom: 20px;
+    }
+
+    .main-table .table-text h2 {
+        font-size: 20px;
+    }
+    .main-table .table-text p {
+        font-size: 13px;
+    }
+    .main-table .forms {
+        padding: 20px;
+    }
+    .forms label {
+        font-size: 12px;
+    }
+    .forms input, .forms select {
+        padding: 10px;
+    }
+    .forms .option-check h5 {
+        font-size: 13px;
+    }
+    .forms .option-check label {
+        font-size: 10px;
+    }
+    .forms .select-table p {
+        font-size: 8px;
+    }
+
+    .main-flex .local-box {
+        padding: 20px;
+    }
+    .main-flex .local-box h4 {
+        font-size: 16px;
+    }
+    .main-flex .local-box p {
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,317 @@
+section.our-dna{
+    background-color: #F2F1F9;
+    padding: 120px 0;
+}
+
+.main-dna {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 72px;
+}
+.main-dna .dna-text {
+    width: calc(50% - 64px);
+    margin-left: 64px;
+}
+.main-dna .dna-text2 {
+    width: calc(50% - 64px);
+    margin-right: 64px;
+}
+.main-dna img{
+    width: 50%;
+}
+.main-dna  a{
+    margin-top: 25px;
+}
+.main-dna ul li {
+    display: flex;
+    margin-bottom: 15px;
+    align-items: center;
+}
+.main-dna .dna-text h2 {
+    margin-bottom: 29px;
+}
+.main-dna ul {
+    margin-top: 29px;
+}
+.main-dna ul li span{
+    margin-right: 15px;
+}
+/* ===================section-four-css=================== */
+section.pathways{
+    padding: 120px 0;
+}
+.pathways .path-head{
+    text-align: center;
+    margin-bottom: 52px;
+}
+.pathways .path-head h4{
+color: #F26845;
+margin-bottom: 27px;
+}
+.pathways .path-main {
+    display: flex;
+    flex-wrap: wrap;
+}
+.path-main .path-box{
+    width: calc(33.33% - 14px);
+    margin-right: 21px;
+    border: 1px solid #E7ECEE
+}
+.path-main .path-box:nth-child(3n){
+    margin-right: 0;
+}
+.path-main .path-box h5{
+    margin: 52px 0 19px 0;
+    padding: 0 33px;
+}
+.path-main .path-box p{
+    margin-bottom: 65px;
+    padding: 0 32px;
+}
+/* =============section-five-css=============== */
+section.journey{
+    background-color: #F2F1F9;
+    padding: 120px 0;
+}
+.journey h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 70px;
+    color: #0a1440;
+}
+
+.journey-main {
+    position: relative;
+}
+
+.journey-main ul {
+    position: relative;
+}
+
+.journey-main ul::before {
+    content: "";
+    position: absolute;
+    top: 12px;
+    bottom: 0;
+    left: 50%;
+    border: 1px dashed #E5003E;
+    height: 94%;
+}
+
+.journey-main li {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    margin-bottom: 90px;
+    position: relative;
+}
+
+.journey-main h4 {
+    font-size: 25px;
+    color: #0a1440;
+}
+
+
+
+.grid-row {
+    max-width: 280px;
+}
+
+.grid-row h5 {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0 0 6px;
+    color: #0a1440;
+}
+
+.grid-row p {
+    font-size: 14px;
+    color: #000000;
+    font-weight: 400;
+}
+.journey-main li:last-child{
+    margin-bottom: 0;
+}
+
+.journey-main li:nth-child(odd) h4 {
+    text-align: right;
+    padding-right: 40px;
+}
+
+.journey-main li:nth-child(odd) .grid-row {
+    padding-left: 40px;
+}
+
+.journey-main li:nth-child(even) h4 {
+    text-align: left;
+    padding-left: 40px;
+}
+
+.journey-main li:nth-child(even) .grid-row {
+    justify-self: end;
+    text-align: right;
+    padding-right: 40px;
+}
+/* ===============section-six-css============== */
+section.orange-bg{
+    padding: 120px 0;
+    background-color: #F26845;
+    text-align: center;
+}
+.orange-bg h2{
+    color: #ffffff;
+    margin: 33px 0 61px 0;
+}
+.orange-bg h4{
+    color: #ffffff;
+}
+.orange-bg .founder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.orange-bg .founder img{
+    width: 111px;
+    margin-right: 20px;
+}
+.founder .founder-text p{
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 400;
+}
+.founder .founder-text h5{
+    color: #ffffff;
+    font-size: 16px;
+}
+/* ==========only-slider========== */
+section.only-slider{
+    padding: 120px 0;
+}
+/* =============section-seven-css================== */
+section.culture{
+    padding: 120px 0;
+    background-color: #F2684533;
+}
+.culture h4{
+    text-align: center;
+    color: #F26845;
+}
+.culture h2{
+    text-align: center;
+    margin-bottom: 35px;
+}
+.culture-main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.culture-main .culture-box {
+    width: calc(33.33% - 29px);
+    margin-right: 29px;
+    background-color: #ffffff;
+    margin-bottom: 29px;
+}
+.culture-main .culture-box p{
+    margin: 10px 0 56px 0;
+    font-weight: 400;
+    padding: 0 33px;
+}
+.culture-main .culture-box h3{
+    font-size: 27px;
+    padding: 0 33px;
+    margin-top: 35px;
+}
+/* =======================responsive-start====================== */
+@media screen and (max-width:1024px){
+
+}
+@media screen and (max-width:768px){
+    .path-main .path-box {
+    margin-right: 0;
+    margin-bottom: 30px;
+    width: 100%;
+}
+.culture-main .culture-box {
+    margin-right: 0;
+    width: 100%;
+}
+.main-dna .dna-text {
+    margin-left: 0;
+    width: 100%;
+    margin-top: 20px;
+}
+.main-dna img{
+    width: 100%;
+}
+.main-dna .dna-text2{
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+}
+section.our-dna {
+    padding: 70px 0 0 0;
+}
+section.pathways {
+    padding: 60px 0;
+}
+section.journey {
+    padding: 60px 0 0 0;
+}
+
+section.orange-bg {
+    padding: 60px 0;
+}
+section.culture {
+    padding: 60px 0;
+}
+section.only-slider {
+    padding: 60px 0;
+}
+}
+@media screen and (max-width:450px){
+    section.our-dna {
+    padding: 40px 0 0 0;
+}
+section.pathways {
+    padding: 40px 0;
+}
+section.journey {
+    padding: 40px 0 0 0;
+}
+
+section.orange-bg {
+    padding: 40px 0;
+}
+section.culture {
+    padding: 40px 0;
+}
+section.only-slider {
+    padding: 40px 0;
+}
+.journey-main li:nth-child(odd) h4 {
+    padding-right: 20px;
+}
+
+.journey-main li:nth-child(odd) .grid-row {
+    padding-left: 20px;
+}
+
+.journey-main li:nth-child(even) h4 {
+    padding-left: 20px;
+}
+
+.journey-main li:nth-child(even) .grid-row {
+    padding-right: 20px;
+}
+.journey-main h4 {
+    font-size: 15px;
+}
+.culture-main .culture-box h3 {
+    font-size: 20px;
+}
+.grid-row h5 {
+    font-size: 13px;
+}.grid-row p {
+    font-size: 12px;
+}
+}
