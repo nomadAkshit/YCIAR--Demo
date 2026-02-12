@@ -192,7 +192,6 @@ section.location{
 }
 .main-flex .local-box ul li{
     display: flex;
-    align-items: center;
     margin-bottom: 15px;
 }
 .main-flex .local-box:nth-child(4n){
