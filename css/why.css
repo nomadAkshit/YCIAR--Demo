@@ -60,75 +60,12 @@ section.stats-section{
     color: #cfcfe8;
 }
 /* ==========section-hubspot-css============ */
-/* section.hubspot-crm{
-    padding: 120px 0 59px 0;
-    background-color: #F26845;
-    position: relative;
-    display: none;
-}
-.hub-head {
-    text-align: center;
-    padding: 0 300px;
-    margin-bottom: 210px;
-    color: #fff;
-}
-.hub-head h2{
-    color: #ffffff;
-    margin-bottom: 20px;
-}
-.main-hubspot {
-    display: flex;
-    flex-wrap: wrap;
-    background: #FFC0C0;
-    border-radius: 20px;
-    margin-bottom: 22px;
-}
-.main-hubspot .hub-box{
-    width: 33%;
-    padding: 30px;
-    position: relative;
-}
-.main-hubspot .hub-box h5 {
-    color: #ffffff;
 
-}
-.main-hubspot .hub-box p{
-    color: #ffffff;  
-}
-.center-box {
-    background-color: #FFBDAC;
-    width: 33%;
-    text-align: center;
-    padding: 30px 0;
-}
-.main-hubspot2 {
-    display: flex;
-}
-.h2-box {
-    width: 33%;
-    padding: 30px;
-}
-.h2-box h2{
-    color: #ffffff;
-}
-.center-box::before {
-    content: "";
-    width: 27%;
-    height: 75%;
-    position: absolute;
-    background: #FFBDAC;
-    left: 548px;
-    z-index: 4;
-    bottom: 0;
-    border: 1px solid #000;
-    border-top-left-radius: 220px;
-    border-top-right-radius: 220px;
-} */
+
  .hubspot-crm {
   background: #F26845;
   padding: 120px 0;
   position: relative;
-  display: none;
 }
 
 .hub-head {
