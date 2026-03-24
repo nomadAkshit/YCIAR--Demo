@@ -63,9 +63,10 @@ section.stats-section{
 
 
  .hubspot-crm {
-  background: #F26845;
-  padding: 120px 0;
-  position: relative;
+    background: #F26845;
+    padding: 120px 0;
+    position: relative;
+    display: none;
 }
 
 .hub-head {
@@ -80,23 +81,28 @@ section.stats-section{
 }
 
 /* CENTER VERTICAL PILLAR */
-.center-pillar {
-  position: absolute;
-  top: 260px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 260px;
-  height: calc(100% - 260px);
-  background: #FFBDAC;
-  border-radius: 140px 140px 0 0;
-  display: flex;
-  justify-content: center;
-  padding-top: 40px;
-  z-index: 1;
+.hub-icon::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 24%;
+    height: calc(100% + 112px);
+    background: #FFBDAC;
+    border-radius: 140px 140px 0 0;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    z-index: -1;
 }
 
-.center-pillar .vs-icon {
-  width: 110px;
+.center-pillar .first{
+    padding-top: 120px;
+
+}
+.center-pillar .first h2{
+        line-height: 122px;
 }
 
 /* ROW LAYOUT */

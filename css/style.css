@@ -208,6 +208,16 @@ header .main_toggle {
     top: 37px;
 }
 
+/* This class activates when scrolling */
+#header.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: red;
+  padding: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
 /* when active */
 .search-box.active .search-input {
     width: 180px;
